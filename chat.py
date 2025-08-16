@@ -5,7 +5,7 @@ import ollama
 # Cargar variables de entorno (.env)
 load_dotenv()
 
-MODEL = os.getenv("OLLAMA_MODEL", "Llama 3.2")
+MODEL = os.getenv("OLLAMA_MODEL", "llama3.2:1b")
 
 def main():
     print(f"Chat con modelo local: {MODEL}")
