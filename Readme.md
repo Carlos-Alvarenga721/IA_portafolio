@@ -3,7 +3,7 @@
 ## Requisitos
 - Python 3.11–3.13
 - Poetry 2.x
-- Ollama instalado y modelo `mistral` descargado
+- Ollama instalado y modelo `mistral o llama3.2:1b` descargado
 
 ## Setup
 ```bash
